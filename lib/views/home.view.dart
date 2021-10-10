@@ -21,13 +21,8 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     super.initState();
 
-
     controller = widget.controller ?? GetIt.I.get<RepositoriesController>();
-    init();
-  }
-
-  init() async {
-    await controller.get();
+    controller.get();
   }
 
   @override

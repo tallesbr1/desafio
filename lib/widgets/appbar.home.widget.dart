@@ -18,7 +18,7 @@ class _AppBarHomeWidgetState extends State<AppBarHomeWidget> {
 
   var textFilterController = TextEditingController(text: "");
 
-  RepositoriesController controller;// = GetIt.I.get<RepositoriesController>();
+  RepositoriesController controller; // = GetIt.I.get<RepositoriesController>();
 
   FocusNode myFocusNode = FocusNode();
 

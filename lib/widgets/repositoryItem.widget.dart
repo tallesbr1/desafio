@@ -23,8 +23,6 @@ class RepositoryItemWidget extends StatelessWidget {
             ),
           ],
         );
-
-        // show the dialog
         showDialog(
           context: context,
           builder: (BuildContext context) {
